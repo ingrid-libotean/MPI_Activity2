@@ -1,0 +1,10 @@
+import random
+
+def generate_random_3sat(num_vars, num_clauses, filename):
+    with open(filename, 'w') as f:
+        f.write(f"p cnf {num_vars} {num_clauses}\n")
+        for _ in range(num_clauses):
+            clause = [str(random.choice([1, -1]) * random.randint(1, num_vars)) for _ in range(3)]
+            f.write(" ".join(clause) + " 0\n")
+
+generate_random_3sat(10, 20, "data/random_medium.cnf")
