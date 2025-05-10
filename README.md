@@ -28,7 +28,7 @@ This project was created for a comparative study of SAT solving algorithms, both
 
 MPI_Activity2_experiment/
 │
-├── Data/
+├── 
 │ ├── sat_small.cnf # A small satisfiable formula
 │ ├── unsat_small.cnf # A small unsatisfiable formula
 │ └── random_medium.cnf # Randomly generated formula (medium size)
