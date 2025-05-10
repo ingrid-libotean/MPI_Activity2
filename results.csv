@@ -1,0 +1,10 @@
+File,Algorithm,Result,Time(s),Memory(KB)
+data/sat_small.cnf,Resolution,SAT,0.0003,7.45
+data/sat_small.cnf,DP,SAT,0.0002,6.30
+data/sat_small.cnf,DPLL,SAT,0.0002,5.95
+data/unsat_small.cnf,Resolution,UNSAT,0.0003,7.80
+data/unsat_small.cnf,DP,UNSAT,0.0002,6.35
+data/unsat_small.cnf,DPLL,UNSAT,0.0002,6.00
+data/random_medium.cnf,Resolution,SAT,0.0041,21.50
+data/random_medium.cnf,DP,SAT,0.0023,17.20
+data/random_medium.cnf,DPLL,SAT,0.0017,15.85
